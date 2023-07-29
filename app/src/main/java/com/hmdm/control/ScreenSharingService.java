@@ -55,6 +55,8 @@ import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.hmdm.control.BuildConfig;
+
 public class ScreenSharingService extends Service {
     public static String CHANNEL_ID = "com.hmdm.control";
     private static final int NOTIFICATION_ID = 111;

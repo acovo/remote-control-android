@@ -37,6 +37,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
+import com.hmdm.control.BuildConfig;
+
 public class SettingsActivity extends AppCompatActivity {
 
     private static final int[] bitrates = {128000, 256000, 512000, 768000, 1024000};
